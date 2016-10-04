@@ -1,0 +1,21 @@
+{
+  "name": "string.prototypes",
+  "version": "0.1.0",
+  "description": "String.prototype.*",
+  "main": "stringPrototypes.js",
+  "scripts": {
+    "test": "node tests/tests.js"
+  },
+  "keywords": [
+    "string"
+  ],
+  "author": {
+    "name": "voidnoble",
+    "url": "http://itzone.tistory.com"
+  },
+  "files": [
+    "LICENSE-GPL-2.0.txt",
+    "stringPrototypes.js"
+  ],
+  "license": "GPL-2.0"
+}
