@@ -1,3 +1,18 @@
+/**
+ * String 도우미 함수들
+ *
+ * Usage:
+ *
+ * require('./helpers/stringHelper');
+ *
+ * let str = "bla bla bla";
+ *
+ * console.log( str.byteCut(10) );
+ */
+
+/**
+ * 문자열의 바이트 길이 구하기
+ */
 if (!String.prototype.byteLength) {
     (function() {
         'use strict'; // needed to support `apply`/`call` with `undefined`/`null`
@@ -44,6 +59,10 @@ if (!String.prototype.byteLength) {
     }());
 }
 
+/**
+ * 문자열을 한글 1자를 2Byte 인식하여 자름
+ * 파라미터 길이 넘으면 말줄임표 붙여 반환
+ */
 if (!String.prototype.byteCut) {
     (function() {
         'use strict'; // needed to support `apply`/`call` with `undefined`/`null`
